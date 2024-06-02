@@ -40,6 +40,5 @@ An e-commerce web application built with the MERN stack (MongoDB, Express, React
 To run this project locally, follow these steps:
 
 1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/ecommerce-mern-app.git
-   cd ecommerce-mern-app
+  ```bash
+git clone https://github.com/mursaleenmk3/MERN_E-Commerce.git
