@@ -8,11 +8,6 @@ An e-commerce web application built with the MERN stack (MongoDB, Express, React
 - [Screenshot](#Screenshot)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-
 
 ## Features
 
@@ -42,3 +37,32 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
   ```bash
 git clone https://github.com/mursaleenmk3/MERN_E-Commerce.git
+
+# 2. Navigate to the Project Directory
+# Navigate into the project directory
+cd MERN_E-Commerce
+
+# 3. Install Backend Dependencies
+# Navigate to the backend directory and install backend dependencies
+cd backend
+npm install
+
+# 4. Set Up Environment Variables
+# Create a .env file in the backend directory and set up environment variables. 
+# You can use the provided .env.example file as a template
+cp .env.example .env
+
+# Then, open .env file and add necessary environment variables such as MongoDB URI, JWT secret, etc.
+
+# 5. Install Frontend Dependencies
+# Navigate to the frontend directory and install frontend dependencies
+cd ../frontend
+npm install
+
+# 6. Start the Development Servers
+
+# Start the Backend Server
+# In the backend directory, start the backend server
+# Use npm run dev for both frontend and admin
+npm run dev
+
