@@ -25,7 +25,7 @@ An e-commerce web application built with the MERN stack (MongoDB, Express, React
 
 ## Screenshot
 
-Check out the live demo [here](#).
+![E-Commerce MERN App Application](screenshots/all.png)
 
 ## Technologies
 
